@@ -420,7 +420,9 @@ def analyze():
     })
 
 
+# gunicorn 포함 모든 실행 방식에서 모델 로드
+load_models()
+
 if __name__ == '__main__':
-    load_models()
     port = int(os.environ.get('PORT', 5001))
     app.run(debug=False, host='0.0.0.0', port=port)
