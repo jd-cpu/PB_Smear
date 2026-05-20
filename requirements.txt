@@ -1,0 +1,36 @@
+# --- [1] 핵심 딥러닝 및 연산 ---
+tensorflow
+numpy
+pandas
+scikit-learn
+scipy
+
+# --- [2] 이미지 처리 및 시각화 ---
+matplotlib
+seaborn
+opencv-python
+Pillow
+h5py
+pydot           # 모델 구조 시각화용 (model_plot)
+graphviz        # 모델 구조 시각화용
+
+# --- [3] 주피터 노트북 및 UX 강화 (추가됨) ---
+ipykernel       # VS Code 연동 필수
+notebook
+tqdm            # 진행률 표시 바 (Progress Bar)
+ipywidgets      # 인터랙티브 위젯
+openpyxl        # 엑셀 파일 입출력 지원
+
+# --- [4] 코드 품질 관리 ---
+pylint
+black
+
+
+livelossplot
+
+# --- [5] 웹 서버 ---
+Flask==3.0.3
+Werkzeug==3.0.3
+
+# --- [6] YOLOv8 객체 탐지 ---
+ultralytics
